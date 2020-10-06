@@ -1,65 +1,55 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 export default function Home() {
+  let currentYear = new Date().getFullYear()
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>ACM Auburn</title>
+        <link rel='icon' href='/acm.svg' />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h1 className={styles.title}>Welcome to ACM Auburn</h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Association for Computing Machinery - Auburn university student
+          chapter
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href='/about' className={styles.card}>
+            <h3>About Us &rarr;</h3>
+            <p>Find informations about ACM Auburn.</p>
           </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href='/calendar' className={styles.card}>
+            <h3>Calendar &rarr;</h3>
+            <p>Club meeting times and events.</p>
           </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+          <a href='/clubs' className={styles.card}>
+            <h3>Clubs &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Artifical Intelligence, Competitive Programming, and Ethical
+              Hacking.
             </p>
+          </a>
+          <a href='/resources' className={styles.card}>
+            <h3>Resources &rarr;</h3>
+            <p>Discord, emails, and social media.</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          href='/'
+          target='_blank'
+          rel='noopener noreferrer'>
+          {currentYear} © ACM Auburn
+          
         </a>
       </footer>
     </div>
-  )
+  );
 }
