@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
-  let currentYear = new Date().getFullYear()
+  let currentYear = new Date().getFullYear();
   return (
     <div className={styles.container}>
       <Head>
@@ -42,13 +42,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href='/'
-          target='_blank'
-          rel='noopener noreferrer'>
-          {currentYear} © ACM Auburn
-          
-        </a>
+        <a href='/'>{currentYear} © ACM Auburn</a>
       </footer>
     </div>
   );
