@@ -30,7 +30,7 @@ export default function Home() {
           <a href='/clubs' className={styles.card}>
             <h3>Clubs &rarr;</h3>
             <p>
-              Artifical Intelligence, Competitive Programming, and Ethical
+              Artificial Intelligence, Competitive Programming, and Ethical
               Hacking.
             </p>
           </a>
