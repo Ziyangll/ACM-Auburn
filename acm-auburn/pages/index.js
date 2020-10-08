@@ -14,8 +14,9 @@ export default function Home() {
         <h1 className={styles.title}>Welcome to ACM Auburn</h1>
 
         <p className={styles.description}>
-          Association for Computing Machinery - Auburn university student
-          chapter
+          Association for Computing Machinery
+        <br/>
+          Auburn university student chapter
         </p>
 
         <div className={styles.grid}>
