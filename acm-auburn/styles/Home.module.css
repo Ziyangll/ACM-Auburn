@@ -50,6 +50,7 @@
 .people {
 	margin: 1rem;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	justify-content: center;
 }
@@ -59,7 +60,6 @@
 	margin: 1rem;
 	display: flex;
 	flex-direction: column;
-
 	justify-content: center;
 	text-align: center;
 	border: 1px solid grey;
