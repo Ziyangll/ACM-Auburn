@@ -11,13 +11,6 @@ export default function About() {
 					<span className={styles.auburn_blue}>Us</span>
 				</h1>
 
-				<p className={styles.description}>
-					ACM Student Chapter is the international Association for Computing
-					Machinery's student society which provides opportunities to students
-					for networking, learn together and share their knowledge. Its main
-					focus is on building and developing members' passion for computer
-					science.
-				</p>
 				<div className={styles.section}>
 					<div className={styles.card}>
 						<h2>Officers/Faculty Sponsor</h2>
