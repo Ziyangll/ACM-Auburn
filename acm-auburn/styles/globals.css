@@ -1,16 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system, Montserrat, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	overflow-x: hidden
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+.auburn_orange {
+	color: #dd550c;
+}
+.auburn_blue {
+	color: #03244d;
+}
+
+.people {
+	margin: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.person {
+	padding: 1rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+
+	border-radius: 5px;
+}
+
+.person img {
+	width: 10rem;
+	border-radius: 5px;
+}
+
+.socials {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+}
+
+.socials img {
+	max-width: 4rem;
+	margin: 0 1rem;
+}
+.footer {
+	height: 2rem;
+	width: 100%;
+	padding: 0 1rem;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	.description {
+		max-width: 90vw;
+	}
+	.people {
+		flex-direction: column;
+	}
 }

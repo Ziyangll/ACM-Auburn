@@ -1,2 +1,3 @@
 # ACM-Auburn
-Official Auburn ACM website.
+
+Official ACM Auburn student chapter website.
