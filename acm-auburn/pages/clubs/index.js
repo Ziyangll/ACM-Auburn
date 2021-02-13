@@ -17,25 +17,25 @@ export default function Clubs() {
 				</section>
 
 				<div className='my-10'>
-					<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
+					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						Competitive Programming Team
 					</h2>
 					<p>The Auburn Competitive Programming Team</p>
 				</div>
 				<div className='my-10'>
-					<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
+					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						FCPT{" "}
 					</h2>
 					<p>Beginner friendly competitive programming </p>
 				</div>
 				<div className='my-10'>
-					<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
+					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						Ethical Hacking Club{" "}
 					</h2>
 					<p>learn how to hack, ethically </p>
 				</div>
 				<div className='my-10'>
-					<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
+					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						Artificial Intelligence Club{" "}
 					</h2>
 					<p>learn how artificial intelligence and machine learning works </p>
