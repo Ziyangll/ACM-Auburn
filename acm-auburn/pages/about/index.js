@@ -23,7 +23,7 @@ export default function About() {
 				</section>
 
 				<div className=''>
-					<div className='text-3xl lg:text-5xl font-extrabold text-black-500'>
+					<div className='py-4 text-2xl lg:text-4xl text-black-500'>
 						<h2>Officers and Faculty Sponsor</h2>
 					</div>
 					<div className='people'>
@@ -72,7 +72,7 @@ export default function About() {
 
 				<div className='my-10'>
 					<div>
-						<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
+						<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 							Clubs/Activities
 						</h2>
 						<table>
@@ -113,26 +113,20 @@ export default function About() {
 				</div>
 				<div className='my-10'>
 					<div>
-						<h2 className='py-4 ext-3xl lg:text-5xl font-extrabold text-black-500'>
-							Our Vision
+						<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
+							Mission
 						</h2>
 						<p className='max-w-md'>
-							Our clubs will not only improves our technical skills but also
-							help form meaningful friendships.
+							ACM is a professional society for Computer Scientists, Software Engineers, and general Tech Enthusiasts.
+							We strive to offer an expansive, collaborative, and inclusive community to further develop our technical skills
+							and to create meaningful relationships with our fellow students.
 						</p>
 					</div>
 				</div>
+
 				<div className='my-10'>
 					<div>
-						<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
-							Mission Statement
-						</h2>
-						<p className='max-w-md'>CSSE Together</p>
-					</div>
-				</div>
-				<div className='my-10'>
-					<div>
-						<h2 className='py-4 text-3xl lg:text-5xl font-extrabold text-black-500'>
+						<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 							Join Today!
 						</h2>
 						<p className='max-w-md'>Click the discord icon in the footer</p>
