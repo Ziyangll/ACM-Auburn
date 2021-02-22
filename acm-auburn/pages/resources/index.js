@@ -17,7 +17,7 @@ export default function Resources() {
 					<h3><a href='https://discord.gg/prNnwtV'>
 						Discord &rarr;
 					</a></h3>
-					<h3><a href='#'>
+					<h3><a href='https://aub.ie/acm-mailing'>
 						Mailing list &rarr;
 					</a></h3>
 					<h3><a href='#' className=''>
