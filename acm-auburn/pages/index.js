@@ -16,8 +16,8 @@ export default function Home() {
 				<link rel='icon' href='/acm.svg' />
 			</Head>
 			<NavBar />
-			<main className='h-screen flex items-center px-6 lg:px-32 text-black relative'>
-				<section className='w-screen md:w-9/12 xl:w-8/12'>
+			<main className='items-center h-screen px-6 lg:px-32 text-black'>
+				<section className='my-20 w-screen md:w-9/12 xl:w-8/12'>
 					<span className='font-bold uppercase tracking-widest'></span>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>ACM</a>
@@ -26,11 +26,22 @@ export default function Home() {
 					</h1>
 					<p className='font-bold mb-1'>Auburn University Student Chapter</p>
 					<p>
-						We have the best clubs to quickly jumpstart your career and connect
-						with your peers.
+						War Eagle! The Association for Computing Machinery (ACM) is an international society for scientific computing. We are a local branch whose goal is to serve the students of Auburn’s campus through peer instruction offered by our expanse of clubs. We provide our members the chance to interact with students of similar interests, while also connecting them with faculty and recruiters for job, internship, and research opportunities.
 					</p>
 				</section>
+				<div className='my-10'>
+					<div>
+						<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
+							Get Involved Today!
+						</h2>
+						<p className='max-w-md'><a href="https://discord.gg/prNnwtV">Join our Discord &rarr;</a></p>
+						<p className='max-w-md'><a href="https://aub.ie/acm-mailing">Subscribe to our Mailing List &rarr;</a></p>
+						<p className='max-w-md'><a href="https://auburn.campuslabs.com/engage/organization/acm">Signup on AU Involve &rarr;</a></p>
+
+					</div>
+				</div>
 			</main>
+
 
 			<Footer />
 		</div>
