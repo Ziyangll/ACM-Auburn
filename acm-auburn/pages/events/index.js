@@ -4,39 +4,32 @@ export default function Clubs() {
 	return (
 		<div>
 			<NavBar />
-			<main className='items-center px-6 lg:px-32 text-black'>
-				<section className='my-20 w-screen md:w-9/12 xl:w-8/12'>
-					<span className='font-bold uppercase tracking-widest'></span>
+			<main className='items-center h-screen px-6 lg:px-32 text-black'>
+				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>Events</a>
 					</h1>
-					<p className='font-bold mb-1 '>Auburn University Student Chapter</p>
-					<p className='max-w-md'>
-						Information for the many different clubs under ACM Auburn.
+					<p className='font-bold mb-1 '>
+						Information for the many different events under ACM Auburn
 					</p>
 				</section>
-
 				<div className='my-10'>
 					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
-						Competitive Programming Team
+						Auburn Hacks
 					</h2>
-					<p className='font-bold mb-1 '>Competition</p>
-					<p>The Auburn Competitive Programming Team</p>
-					<p className='font-bold mb-1 my-5'>Fundamentals</p>
-					<p>Beginner friendly competitive programming </p>
-				</div>
-
-				<div className='my-10'>
-					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
-						Ethical Hacking Club{" "}
-					</h2>
-					<p>learn how to hack, ethically </p>
+					<p>...</p>
 				</div>
 				<div className='my-10'>
 					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
-						Artificial Intelligence Club{" "}
+						Tech Talks
 					</h2>
-					<p>learn how artificial intelligence and machine learning works </p>
+					<p>...</p>
+				</div>
+				<div className='my-10'>
+					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
+						Tea Time
+					</h2>
+					<p>...</p>
 				</div>
 			</main>
 			<Footer />

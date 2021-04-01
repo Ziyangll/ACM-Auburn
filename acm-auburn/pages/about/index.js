@@ -5,8 +5,7 @@ export default function About() {
 		<div>
 			<NavBar />
 			<main className='items-center px-6 lg:px-32 text-black'>
-				<section className='my-20 w-screen md:w-9/12 xl:w-8/12'>
-					<span className='font-bold uppercase tracking-widest'></span>
+				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>About</a>
 						<br />
@@ -76,7 +75,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1007'
+									src='https://placekitten.com/1050/1007'
 									alt='Ziyang Li'
 								/>
 							</center>
@@ -96,8 +95,6 @@ export default function About() {
 					</div>
 				</div>
 
-
-
 				<div className='my-10'>
 					<div className='py-4 text-2xl lg:text-4xl text-black-500'>
 						<h2>Clubs and Events</h2>
@@ -106,62 +103,61 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1009'
-									alt='Connor Johnston'
+									src='https://placekitten.com/1009/1009'
+									alt='CPT'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Connor Johnston</h5>
-							<p>President</p>
+							<p className="text-sm">Competitive Programming Team</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1001'
-									alt='Hudson Chromy'
+									src='https://placekitten.com/1037/1013'
+									alt='EHC'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Hudson Chromy</h5>
-							<p>Vice President</p>
+							<p className="text-sm">Ethical Hacking Club</p>
 						</div>
+
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1006/1002'
-									alt='Josh Coward'
+									src='https://placekitten.com/1006/1007'
+									alt='AI'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Josh Coward</h5>
-							<p>Secretary</p>
+
+							<p className="text-sm">Artificial Intelligence Club</p>
 						</div>
-						<div className='person'>
-							<center>
-								<img
-									src='https://placekitten.com/1000/1003'
-									alt='Carson Barnett'
-								/>
-							</center>
-							<h5 className='text-xl text-bold'>Carson Barnett</h5>
-							<p>Treasurer</p>
-						</div>
+
 						<div className='person'>
 							<center>
 								<img
 									src='https://placekitten.com/1000/1007'
-									alt='Ziyang Li'
+									alt='Auburn Hacks'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Ziyang Li</h5>
-							<p>Tech Lead</p>
+
+							<p className="text-sm">Auburn Hackathon</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1040/1009'
-									alt='Clint Lovelace'
+									src='https://placekitten.com/1025/1029'
+									alt='Tech Talks'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Clint Lovelace</h5>
-							<p>Faculty Sponsor</p>
+
+							<p className="text-sm">Monthly </p>
+						</div>
+						<div className='person'>
+							<center>
+								<img
+									src='https://placekitten.com/1003/1003'
+									alt='Tea Time'
+								/>
+							</center>
+							<p className="text-sm">Tea Time</p>
 						</div>
 					</div>
 				</div>

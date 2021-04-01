@@ -5,15 +5,13 @@ export default function Resources() {
 		<div className=''>
 			<NavBar />
 			<main className='items-center h-screen px-6 lg:px-32 text-black'>
-				<section className='my-20 w-screen md:w-9/12 xl:w-8/12'>
-					<span className='font-bold uppercase tracking-widest'></span>
+				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>Resources</a>
 					</h1>
-					<p className='font-bold mb-1 '>Auburn University Student Chapter</p>
-					<p className='max-w-md'>Helpful resources.</p>
+					<p className='font-bold mb-1 '>Helpful resources</p>
 				</section>
-				<div>
+				<div className="my-10">
 					<h3><a href='https://discord.gg/prNnwtV'>
 						Discord &rarr;
 					</a></h3>
@@ -35,6 +33,12 @@ export default function Resources() {
 					<h3><a href='#' className=''>
 						Membership sign up (when established) &rarr;
 					</a></h3>
+				</div>
+				<div className="my-10">
+					<h3><a href='https://education.github.com/pack/offers' className=''>
+						Github Student Developer Pack &rarr;
+					</a></h3>
+					
 				</div>
 			</main>
 			<Footer />

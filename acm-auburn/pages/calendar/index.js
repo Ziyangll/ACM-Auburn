@@ -5,16 +5,14 @@ export default function About() {
 		<div>
 			<NavBar />
 			<main className='items-center h-screen px-6 lg:px-32 text-black'>
-				<section className='my-20 w-screen md:w-9/12 xl:w-8/12'>
-					<span className='font-bold uppercase tracking-widest'></span>
+				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>Calendar</a>
 					</h1>
-
-					<p className='max-w-sm'>
-						Calendar here
-					</p>
 				</section>
+				<div>
+					<p className='max-w-md auburn_blue'><a href="#">Our Google Calendar &rarr;</a></p>
+				</div>
 			</main>
 			<Footer />
 		</div>
