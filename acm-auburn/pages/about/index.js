@@ -148,7 +148,7 @@ export default function About() {
 								/>
 							</center>
 
-							<p className="text-sm">Monthly Tech Talks</p>
+							<p className="text-sm">Tech Talks</p>
 						</div>
 						<div className='person'>
 							<center>
