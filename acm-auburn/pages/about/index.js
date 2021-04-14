@@ -4,7 +4,7 @@ export default function About() {
 	return (
 		<div>
 			<NavBar />
-			<main className='items-center px-6 lg:px-32 text-black'>
+			<main className='items-center px-6 lg:px-32 min-h-screen text-black'>
 				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>About</a>
@@ -107,7 +107,8 @@ export default function About() {
 									alt='CPT'
 								/>
 							</center>
-							<p className="text-sm">Competitive Programming Team</p>
+							<br/>
+							<h5 className='text-xl text-bold'>Competitive Programming Team</h5>
 						</div>
 						<div className='person'>
 							<center>
@@ -116,7 +117,8 @@ export default function About() {
 									alt='EHC'
 								/>
 							</center>
-							<p className="text-sm">Ethical Hacking Club</p>
+							<br/>
+							<h5 className='text-xl text-bold'>Ethical Hacking Club</h5>
 						</div>
 
 						<div className='person'>
@@ -126,8 +128,8 @@ export default function About() {
 									alt='AI'
 								/>
 							</center>
-
-							<p className="text-sm">Artificial Intelligence Club</p>
+							<br/>
+							<h5 className='text-xl text-bold'>Artificial Intelligence Club</h5>
 						</div>
 
 						<div className='person'>
@@ -137,8 +139,8 @@ export default function About() {
 									alt='Auburn Hacks'
 								/>
 							</center>
-
-							<p className="text-sm">Auburn Hackathon</p>
+							<br/>
+							<h5 className='text-xl text-bold'>Auburn Hackathon</h5>
 						</div>
 						<div className='person'>
 							<center>
@@ -147,8 +149,8 @@ export default function About() {
 									alt='Tech Talks'
 								/>
 							</center>
-
-							<p className="text-sm">Tech Talks</p>
+							<br/>
+							<h5 className='text-xl text-bold'>Tech Talks</h5>
 						</div>
 						<div className='person'>
 							<center>
@@ -157,7 +159,8 @@ export default function About() {
 									alt='Tea Time'
 								/>
 							</center>
-							<p className="text-sm">Tea Time</p>
+							<br/>
+							<h5 className='text-xl text-bold'>Tea Time</h5>
 						</div>
 					</div>
 				</div>

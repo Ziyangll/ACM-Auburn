@@ -15,7 +15,7 @@ export default function Home() {
 				<link rel='icon' href='/acm.svg' />
 			</Head>
 			<NavBar />
-			<main className='items-center h-screen px-6 lg:px-32 text-black'>
+			<main className='items-center min-h-screen px-6 lg:px-32 text-black'>
 				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>ACM</a>

@@ -4,7 +4,7 @@ export default function Resources() {
 	return (
 		<div className=''>
 			<NavBar />
-			<main className='items-center h-screen px-6 lg:px-32 text-black'>
+			<main className='items-center px-6 lg:px-32 min-h-screen text-black'>
 				<section className='my-20 xl:w-8/12'>
 					<h1 className='text-3xl lg:text-5xl font-extrabold text-black-500'>
 						<a className='auburn_blue'>Resources</a>
@@ -38,7 +38,7 @@ export default function Resources() {
 					<h3><a href='https://education.github.com/pack/offers' className=''>
 						Github Student Developer Pack &rarr;
 					</a></h3>
-					
+
 				</div>
 			</main>
 			<Footer />
