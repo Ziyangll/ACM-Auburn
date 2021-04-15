@@ -13,6 +13,7 @@ export default function Home() {
 				<meta name='keywords' content='ACM Auburn' />
 				<meta name='author' content='Ziyang Li' />
 				<link rel='icon' href='/acm.svg' />
+				
 			</Head>
 			<NavBar />
 			<main className='items-center min-h-screen px-6 lg:px-32 text-black'>

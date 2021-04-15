@@ -1,5 +1,6 @@
 import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
+
 export default function About() {
 	return (
 		<div>
@@ -35,47 +36,47 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1009'
-									alt='Connor Johnston'
+									src='/JoshCoward.png'
+									alt='Josh Coward'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Connor Johnston</h5>
+							<h5 className='text-xl text-bold'>Josh Coward</h5>
 							<p>President</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1001'
-									alt='Hudson Chromy'
+									src='/ZiyangLi.png'
+									alt='Ziyang Li'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Hudson Chromy</h5>
+							<h5 className='text-xl text-bold'>Ziyang Li</h5>
 							<p>Vice President</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1006/1002'
-									alt='Josh Coward'
+									src='/DavidJoy.svg'
+									alt='David Joy'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Josh Coward</h5>
+							<h5 className='text-xl text-bold'>David Joy</h5>
 							<p>Secretary</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1003'
-									alt='Carson Barnett'
+									src='/EileenLanda.png'
+									alt='Eileen Landa'
 								/>
 							</center>
-							<h5 className='text-xl text-bold'>Carson Barnett</h5>
+							<h5 className='text-xl text-bold'>Eileen Landa</h5>
 							<p>Treasurer</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1050/1007'
+									src='/ZiyangLi.png'
 									alt='Ziyang Li'
 								/>
 							</center>
@@ -85,8 +86,10 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1040/1009'
+
+									src='ClintLovelace.jpg'
 									alt='Clint Lovelace'
+									style={{objectFit: "cover"}}
 								/>
 							</center>
 							<h5 className='text-xl text-bold'>Clint Lovelace</h5>
@@ -103,7 +106,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1009/1009'
+									src='/ICPC.svg'
 									alt='CPT'
 								/>
 							</center>
@@ -113,7 +116,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1037/1013'
+									src='/EHC.svg'
 									alt='EHC'
 								/>
 							</center>
@@ -124,7 +127,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1006/1007'
+									src='/AI.svg'
 									alt='AI'
 								/>
 							</center>
@@ -135,7 +138,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1000/1007'
+									src='/AuburnHacksLogo.svg'
 									alt='Auburn Hacks'
 								/>
 							</center>
@@ -145,7 +148,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1025/1029'
+									src='/TechTalk.svg'
 									alt='Tech Talks'
 								/>
 							</center>
@@ -155,7 +158,7 @@ export default function About() {
 						<div className='person'>
 							<center>
 								<img
-									src='https://placekitten.com/1003/1003'
+									src='/TeaTime.svg'
 									alt='Tea Time'
 								/>
 							</center>
