@@ -73,12 +73,3 @@ a {
 	padding: 0 1rem;
 	text-align: center;
 }
-
-@media (max-width: 1000px) {
-	.description {
-		max-width: 90vw;
-	}
-	.people {
-		flex-direction: column;
-	}
-}
