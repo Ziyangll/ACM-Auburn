@@ -21,7 +21,7 @@ export default function Clubs() {
 					<p className="xl:w-8/12">Through weekly meetings focused on lectures and problem solving,
 					CPT prepares to compete in collegiate programming competitions. We study a range of data structures
 					and algorithms along with their applications. Our primary form of practice takes place on
-					<a className="text-blue-500" href="https://open.kattis.com"> Kattis</a>, a repository of problems,
+					<a className="text-blue-500" href="https://open.kattis.com" target="_blank" rel="noopener noreferrer"> Kattis</a>, a repository of problems,
 					complete with a judge and a platform to host competitions. Additionally to our weekly meetings,
 					we regularly host mock competitions and mock technical interview practice for all members of ACM.
 					We primarily solve our problems in Java, Python, or C++.</p>
@@ -46,7 +46,7 @@ export default function Clubs() {
 						contributed to educating the general population about computer hygiene through good works,
 						and developed and hosted a public cybersecurity event with over 2000 participants from all around the globe.
 						For more info, follow this
-						<a className="text-blue-500" href="https://ehc.auburn.edu/"> link</a>.
+						<a className="text-blue-500" href="https://ehc.auburn.edu/" target="_blank" rel="noopener noreferrer"> link</a>.
 					</p>
 				</div>
 				<div className='my-10'>

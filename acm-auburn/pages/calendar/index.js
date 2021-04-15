@@ -11,7 +11,7 @@ export default function About() {
 					</h1>
 				</section>
 				<div>
-					<p className='max-w-md auburn_blue'><a href="https://calendar.google.com/calendar/u/0/r?cid=YWNtYXVidXJuQGdtYWlsLmNvbQ">Our Google Calendar &rarr;</a></p>
+					<p className='max-w-md auburn_blue'><a href="https://calendar.google.com/calendar/u/0/r?cid=YWNtYXVidXJuQGdtYWlsLmNvbQ" target="_blank" rel="noopener noreferrer">Our Google Calendar &rarr;</a></p>
 				</div>
 			</main>
 			<Footer />

@@ -33,9 +33,9 @@ export default function Home() {
 						<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 							Get Involved Today!
 						</h2>
-						<p className='max-w-md auburn_blue'><a href="https://discord.gg/prNnwtV">Join our Discord &rarr;</a></p>
-						<p className='max-w-md auburn_blue'><a href="https://aub.ie/acm-mailing">Subscribe to our Mailing List &rarr;</a></p>
-						<p className='max-w-md auburn_blue'><a href="https://auburn.campuslabs.com/engage/organization/acm">Sign up on AU Involve &rarr;</a></p>
+						<p className='max-w-md auburn_blue'><a href="https://discord.gg/prNnwtV" target="_blank" rel="noopener noreferrer">Join our Discord &rarr;</a></p>
+						<p className='max-w-md auburn_blue'><a href="https://aub.ie/acm-mailing" target="_blank" rel="noopener noreferrer">Subscribe to our Mailing List &rarr;</a></p>
+						<p className='max-w-md auburn_blue'><a href="https://auburn.campuslabs.com/engage/organization/acm" target="_blank" rel="noopener noreferrer">Sign up on AU Involve &rarr;</a></p>
 					</div>
 				</div>
 			</main>

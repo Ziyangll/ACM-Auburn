@@ -12,30 +12,30 @@ export default function Resources() {
 					<p className='font-bold mb-1 '>Helpful resources</p>
 				</section>
 				<div className="my-10">
-					<h3><a href='https://discord.gg/prNnwtV'>
+					<h3><a href='https://discord.gg/prNnwtV' target="_blank" rel="noopener noreferrer">
 						Discord &rarr;
 					</a></h3>
-					<h3><a href='https://aub.ie/acm-mailing'>
+					<h3><a href='https://aub.ie/acm-mailing' target="_blank" rel="noopener noreferrer">
 						Mailing list &rarr;
 					</a></h3>
-					<h3><a href='#' className=''>
+					<h3><a href='#' className='' target="_blank" rel="noopener noreferrer">
 						Code of Conduct &rarr;
 					</a></h3>
 					<h3><a
 						href='https://open.kattis.com/universities/auburn.edu'
-						className=''>
+						target="_blank" rel="noopener noreferrer">
 						Auburn Kattis Leaderboard &rarr;
 					</a>
 					</h3>
-					<h3><a href='#' className=''>
+					<h3><a href='#' target="_blank" rel="noopener noreferrer">
 						Mock Interview Sign up &rarr;
 					</a></h3>
-					<h3><a href='#' className=''>
+					<h3><a href='#' target="_blank" rel="noopener noreferrer">
 						Membership sign up (when established) &rarr;
 					</a></h3>
 				</div>
 				<div className="my-10">
-					<h3><a href='https://education.github.com/pack/offers' className=''>
+					<h3><a href='https://education.github.com/pack/offers' target="_blank" rel="noopener noreferrer">
 						Github Student Developer Pack &rarr;
 					</a></h3>
 
