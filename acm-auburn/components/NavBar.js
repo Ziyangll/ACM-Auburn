@@ -17,8 +17,8 @@ export default function NavBar() {
 						About
 					</a>
 				</Link>
-				<Link href='/calendar'>
-					<a className='rounded-xl shadow hover:bg-white py-2 px-1 mx-1 md:px-2 md:mx-2 transition ease-in duration-200'>
+				<Link href='https://calendar.google.com/calendar/u/0/r?cid=YWNtYXVidXJuQGdtYWlsLmNvbQ'>
+					<a className='rounded-xl shadow hover:bg-white py-2 px-1 mx-1 md:px-2 md:mx-2 transition ease-in duration-200' target="_blank" rel="noreferrer">
 						Calendar
 					</a>
 				</Link>
