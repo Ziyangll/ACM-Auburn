@@ -21,7 +21,7 @@ export default function Clubs() {
 					<p className="xl:w-8/12">Through weekly meetings focused on lectures and problem solving,
 					CPT prepares to compete in collegiate programming competitions. We study a range of data structures
 					and algorithms along with their applications. Our primary form of practice takes place on
-					<a className="text-blue-500" href="https://open.kattis.com">Kattis</a>, a repository of problems,
+					<a className="text-blue-500" href="https://open.kattis.com"> Kattis</a>, a repository of problems,
 					complete with a judge and a platform to host competitions. Additionally to our weekly meetings,
 					we regularly host mock competitions and mock technical interview practice for all members of ACM.
 					We primarily solve our problems in Java, Python, or C++.</p>
@@ -39,13 +39,14 @@ export default function Clubs() {
 					<p className="xl:w-8/12">EHC is a cybersecurity student organization whose primary objective is to garner interest in cybersecurity
 						within Auburn University’s student body. Our members are composed of freshmen to graduate students,
 						each with an interest in different parts of the cybersecurity field.
-						EHC is focused on developing a new wave of cybersecurity professionals.
+						<br/><br/>EHC is focused on developing a new wave of cybersecurity professionals.
 						Over the past 5 years, we have taught Auburn University students cybersecurity principles through
 						our participation in international security competitions, lectures on security topics, and practice with
 						industry-standard security tools. We have worked with national laboratories to hold cybersecurity events,
 						contributed to educating the general population about computer hygiene through good works,
 						and developed and hosted a public cybersecurity event with over 2000 participants from all around the globe.
-						For more info, follow this link <a className="text-blue-500" href="https://ehc.auburn.edu/">ehc.auburn.edu</a>.
+						For more info, follow this
+						<a className="text-blue-500" href="https://ehc.auburn.edu/"> link</a>.
 					</p>
 				</div>
 				<div className='my-10'>
@@ -56,7 +57,8 @@ export default function Clubs() {
 					evolutionary computing, and artificial intelligence in general.
 					We are a group of passionate people who are curious about how to make computers behave more like humans
 					and tackle some of the most incredibly complex tasks on the planet. We have lots of fun together
-					and push each other to do our best. The club programs mainly in Python and PyTorch with minimal emphasis
+					and push each other to do our best. 
+					<br/><br/>The club programs mainly in Python and PyTorch with minimal emphasis
 					on other languages and frameworks. A basic understanding of calculus and statistics are recommended,
 					but people of all backgrounds and experience levels are welcome!</p>
 				</div>

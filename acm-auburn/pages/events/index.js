@@ -18,7 +18,7 @@ export default function Clubs() {
 					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						Auburn Hacks
 					</h2>
-					<p>We are Auburn University’s premier programming competition, designed by students, for students.
+					<p className="xl:w-8/12">We are Auburn University’s premier programming competition, designed by students, for students.
 						We hope to spark technical innovation and highlight students’ skills and abilities.
 						Partnering with Major League Hacking (MLH), we strive to bring out the best and brightest students,
 						not just from Auburn University but from other universities all over the United States, Europe, and Canada.
@@ -30,7 +30,7 @@ export default function Clubs() {
 					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						Tech Talks
 					</h2>
-					<p>Beyond hands on practice with different technologies, ACM strives to provide our members with plentiful opportunities
+					<p className="xl:w-8/12">Beyond hands on practice with different technologies, ACM strives to provide our members with plentiful opportunities
 						to connect with recruiters and employees from high quality companies. Tech Talks are hosted by Auburn
 						CSSE through ACM to allow for these interactions. Representatives from these companies come and present
 						on topics such as their work, their technologies, their typical day-to-day life, and so on.
@@ -42,7 +42,7 @@ export default function Clubs() {
 					<h2 className='py-4 text-2xl lg:text-4xl text-black-500'>
 						Tea Time
 					</h2>
-					<p>Sometimes it's nice to just sit down, relax, and eat a meal with friends.
+					<p className="xl:w-8/12">Sometimes it's nice to just sit down, relax, and eat a meal with friends.
 						ACM hosts a weekly dinner specifically for this purpose.
 						Once a week, ACM members of all clubs meet at a restaurant in Auburn and hang out.
 						We want our members to have personal relationships outside of programming,
