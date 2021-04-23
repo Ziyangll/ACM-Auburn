@@ -3,6 +3,16 @@ import NavBar from "../../components/NavBar";
 export default function Clubs() {
 	return (
 		<div>
+			<Head>
+				<title>ACM Auburn Events</title>
+				<meta
+					name='description'
+					content='ACM Auburn University student chapter official website event page'
+				/>
+				<meta name='keywords' content='ACM Auburn event'/>
+				<meta name='author' content='Ziyang Li' />
+				<link rel='icon' href='/acm.svg' />
+			</Head>
 			<NavBar />
 			<main className='items-center px-6 lg:px-32 min-h-screen text-black'>
 				<section className='my-20 xl:w-8/12'>

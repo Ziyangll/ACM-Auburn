@@ -3,6 +3,16 @@ import NavBar from "../../components/NavBar";
 export default function Clubs() {
 	return (
 		<div>
+			<Head>
+				<title>ACM Auburn Clubs</title>
+				<meta
+					name='description'
+					content='ACM Auburn University student chapter official website clubs page'
+				/>
+				<meta name='keywords' content='ACM Auburn clubs' />
+				<meta name='author' content='Ziyang Li' />
+				<link rel='icon' href='/acm.svg' />
+			</Head>
 			<NavBar />
 			<main className='items-center px-6 lg:px-32 min-h-screen text-black'>
 				<section className='my-20 xl:w-8/12'>
@@ -57,7 +67,7 @@ export default function Clubs() {
 					evolutionary computing, and artificial intelligence in general.
 					We are a group of passionate people who are curious about how to make computers behave more like humans
 					and tackle some of the most incredibly complex tasks on the planet. We have lots of fun together
-					and push each other to do our best. 
+					and push each other to do our best.
 					<br/><br/>The club programs mainly in Python and PyTorch with minimal emphasis
 					on other languages and frameworks. A basic understanding of calculus and statistics are recommended,
 					but people of all backgrounds and experience levels are welcome!</p>
