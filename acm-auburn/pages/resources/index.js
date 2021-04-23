@@ -5,7 +5,7 @@ export default function Resources() {
 	return (
 		<div>
 			<Head>
-				<title>ACM Auburn Clubs</title>
+				<title>ACM Auburn Resources</title>
 				<meta
 					name='description'
 					content='ACM Auburn University student chapter official website resources page'
