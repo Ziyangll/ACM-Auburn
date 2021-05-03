@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "../../components/Footer";
 import NavBar from "../../components/NavBar";
+import Link from 'next/link'
 export default function About() {
 	return (
 		<div>
@@ -50,6 +51,7 @@ export default function About() {
 									alt='Josh Coward'
 								/>
 							</center>
+							<br />
 							<h5 className='text-xl text-bold'>Josh Coward</h5>
 							<p>President</p>
 						</div>
@@ -60,16 +62,18 @@ export default function About() {
 									alt='Ziyang Li'
 								/>
 							</center>
+							<br />
 							<h5 className='text-xl text-bold'>Ziyang Li</h5>
 							<p>Vice President</p>
 						</div>
 						<div className='person'>
 							<center>
 								<img
-									src='/DavidJoy.svg'
+									src='/DavidJoy.png'
 									alt='David Joy'
 								/>
 							</center>
+							<br />
 							<h5 className='text-xl text-bold'>David Joy</h5>
 							<p>Secretary</p>
 						</div>
@@ -80,6 +84,7 @@ export default function About() {
 									alt='Eileen Landa'
 								/>
 							</center>
+							<br />
 							<h5 className='text-xl text-bold'>Eileen Landa</h5>
 							<p>Treasurer</p>
 						</div>
@@ -90,8 +95,20 @@ export default function About() {
 									alt='Ziyang Li'
 								/>
 							</center>
+							<br />
 							<h5 className='text-xl text-bold'>Ziyang Li</h5>
 							<p>Tech Lead</p>
+						</div>
+						<div className='person'>
+							<center>
+								<img
+									src='/JaredPrather.png'
+									alt='Jared Prather'
+								/>
+							</center>
+							<br />
+							<h5 className='text-xl text-bold'>Jared Prather</h5>
+							<p>Auburn Hacks Director</p>
 						</div>
 						<div className='person'>
 							<center>
@@ -102,6 +119,7 @@ export default function About() {
 									style={{objectFit: "cover"}}
 								/>
 							</center>
+							<br />
 							<h5 className='text-xl text-bold'>Clint Lovelace</h5>
 							<p>Faculty Sponsor</p>
 						</div>
@@ -113,68 +131,80 @@ export default function About() {
 						<h2>Clubs and Events</h2>
 					</div>
 					<div className='people'>
-						<div className='person'>
-							<center>
-								<img
-									src='/ICPC.svg'
-									alt='CPT'
-								/>
-							</center>
-							<br/>
-							<h5 className='text-xl text-bold'>Competitive Programming Team</h5>
-						</div>
-						<div className='person'>
-							<center>
-								<img
-									src='/EHC.svg'
-									alt='EHC'
-								/>
-							</center>
-							<br/>
-							<h5 className='text-xl text-bold'>Ethical Hacking Club</h5>
-						</div>
+						<Link href='/clubs'>
+							<div className='person cursor-pointer'>
+								<center>
 
-						<div className='person'>
-							<center>
-								<img
-									src='/AI.svg'
-									alt='AI'
-								/>
-							</center>
-							<br/>
-							<h5 className='text-xl text-bold'>Artificial Intelligence Club</h5>
-						</div>
+									<img
+										src='/ICPC.svg'
+										alt='CPT'
+									/>
 
-						<div className='person'>
-							<center>
-								<img
-									src='/AuburnHacksLogo.svg'
-									alt='Auburn Hacks'
-								/>
-							</center>
-							<br/>
-							<h5 className='text-xl text-bold'>Auburn Hackathon</h5>
-						</div>
-						<div className='person'>
-							<center>
-								<img
-									src='/TechTalk.svg'
-									alt='Tech Talks'
-								/>
-							</center>
-							<br/>
-							<h5 className='text-xl text-bold'>Tech Talks</h5>
-						</div>
-						<div className='person'>
-							<center>
-								<img
-									src='/TeaTime.svg'
-									alt='Tea Time'
-								/>
-							</center>
-							<br/>
-							<h5 className='text-xl text-bold'>Tea Time</h5>
-						</div>
+								</center>
+								<br/>
+								<h5 className='text-xl text-bold'>Competitive Programming Team</h5>
+							</div>
+						</Link>
+						<Link href='/clubs'>
+							<div className='person cursor-pointer'>
+								<center>
+									<img
+										src='/EHC.svg'
+										alt='EHC'
+									/>
+								</center>
+								<br/>
+								<h5 className='text-xl text-bold'>Ethical Hacking Club</h5>
+							</div>
+						</Link>
+						<Link href='/clubs'>
+							<div className='person cursor-pointer'>
+								<center>
+									<img
+										src='/AI.svg'
+										alt='AI'
+									/>
+								</center>
+								<br/>
+								<h5 className='text-xl text-bold'>Artificial Intelligence Club</h5>
+							</div>
+						</Link>
+						<Link href='/events'>
+							<div className='person cursor-pointer'>
+								<center>
+									<img
+										src='/AuburnHacksLogo.svg'
+										alt='Auburn Hacks'
+									/>
+								</center>
+								<br/>
+								<h5 className='text-xl text-bold'>Auburn Hackathon</h5>
+							</div>
+						</Link>
+						<Link href='/events'>
+							<div className='person cursor-pointer'>
+								<center>
+									<img
+										src='/TechTalk.svg'
+										alt='Tech Talks'
+									/>
+								</center>
+								<br/>
+								<h5 className='text-xl text-bold m-1'>Tech Talks</h5>
+							</div>
+						</Link>
+						<Link href='/events'>
+							<div className='person cursor-pointer'>
+								<center>
+									<img
+										src='/TeaTime.svg'
+										alt='Tea Time'
+									/>
+								</center>
+								<br/>
+								<h5 className='text-xl text-bold m-1'>Tea Time</h5>
+							</div>
+						</Link>
 					</div>
 				</div>
 
